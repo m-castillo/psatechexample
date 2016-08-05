@@ -1,0 +1,118 @@
+#page1, #page2 {
+	height: 100vh;
+}
+
+#page2 > #bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(media/dallas_night.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.info {
+	color: white;
+	font-family: 'Ek Mukta', sans-serif;
+	font-weight: 200;
+}
+
+#title2 {
+	color: hsla(47, 100%, 52%, 1);
+	font-weight: 400;
+}
+
+#title2, #subtitle2, #description2, #students2 {
+	text-align: center;
+}
+
+#box {
+	width: 40%;
+	margin: 0 auto;
+	background-color: hsla(0, 0%, 10%, 0.44);
+	text-align: center;
+}
+
+#anyone {
+	font-size: 20px;
+}
+
+#students2 {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 250px;
+}
+
+.students {
+	width: 100px;
+	height: 50px;
+	background-color: hsla(0, 0%, 10%, 0.34);
+	padding: 10px;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	color: hsla(0, 0%, 61%, 0.34);
+	transition: background-color 1s ease;
+}
+
+.students:hover {
+	transition: background-color 1s ease;
+	background-color: hsla(0, 0%, 61%, 0.44);
+	color: hsla(0, 0%, 88%, 1);
+	border-radius: 20px;
+}
+
+#end2 > a {
+	text-decoration: none;
+	color: white;
+}
+
+
+#ideas {
+	font-weight: 400;
+	font-size: 30px;
+}
+
+@media screen and (max-width:480px) {
+
+	html, body {
+		background: black;
+	}
+	#title2 {
+		background-color: hsla(333, 100%, 5%, 1);
+	}
+
+	#subtitle2 {
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	#description2 {
+		font-size: 20px;
+	}
+
+    .circle {
+    	width: 100%;
+    	display: block;
+    	border-radius: 0;
+    	padding: 0;
+    }
+
+    table {
+    	width: 100%;
+    	/*background-color: hsla(337, 100%, 28%, 0.3);*/
+
+    }
+
+}
+
+
